@@ -1,0 +1,47 @@
+
+<div class="navbar">
+    <ul>
+        <li>
+            <button class="btn nav-btn">
+                <a routerLink="home">HOME</a>
+            </button>
+        </li>
+        <li>
+            <button class="btn nav-btn">
+                <a routerLink="login">LOG IN</a>
+            </button>
+        </li>
+        <li>
+            <button class="btn nav-btn">
+                <a routerLink="register">REGISTER</a>
+            </button>
+        </li>
+        <li>
+            <button class="btn nav-btn">
+                <a routerLink="edit">EDIT</a>
+            </button>
+        </li>
+        <li>
+            <button class="btn nav-btn" [disabled]="_datastore.fetchall">
+                <a routerLink="fetch">FETCH ALL</a>
+            </button>
+        </li>                                
+    </ul>
+</div>
+
+
+<br>
+
+
+<div class="sidebar1">
+    <a routerLink="home"><img src="../../assets/home.png"/></a><br>
+    <a routerLink="login"><img src="../../assets/login.png"/></a><br>
+    <a routerLink="register"><img src="../../assets/register.png"/></a><br>
+    <a routerLink="edit"><img src="../../assets/edit.png"/></a><br>
+    <a routerLink="delete"><img src="../../assets/delete.png"/></a><br>
+    <a routerLink="fetch"><img src="../../assets/fetch.jpg"/></a>        
+</div>
+
+<div class="sidebar2">
+    <router-outlet></router-outlet>
+</div>

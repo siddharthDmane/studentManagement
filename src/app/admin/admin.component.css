@@ -1,0 +1,40 @@
+.main-div{
+    width:98%;
+    margin:0 1% 0 1%;
+    display:inline-block;
+    border: 1px solid black;
+    height: 500px;
+}
+table{
+    width:80%;
+    margin:1% 10% 0 1%;
+    border:1px solid #004B49;
+    
+}
+.thead{
+    background-color:#004B49;
+    color:white;
+    font-family:'cambria';
+    font-size: 25px;
+}
+th{
+    padding:5px 15px ;
+}
+.div-line{
+    width: 100%;
+    background-color: #8A9A5B;
+    color:black;
+}
+.div-padd{
+    padding-left: 35%;
+}
+b{
+    font-family: 'cambria';
+    font-size: 30px;
+    width: 30%;
+    margin: auto;
+}
+.btn{
+    width: 20%;
+    margin:0 0 0.5% 78%;
+}

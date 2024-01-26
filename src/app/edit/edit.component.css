@@ -1,0 +1,36 @@
+.main-div{
+    width:98%;
+    margin:0 1% 0 1%;
+    display:inline-flex;
+}
+.imgclass{
+    width:30%;
+}
+
+.form-div{
+    border:1px solid green;
+    padding: 15px;
+    margin-left: 5%;
+    width:65%;
+}
+
+
+.input{
+    height:45px;
+    width: 100%;
+    background-color: #8A9A5B;
+    border:1px solid green;
+}
+.input-select{
+    height:45px;
+    width: 55%;
+    background-color: #8A9A5B;
+    border:1px solid green;
+}
+.submit-btn{
+    margin-left:20%;
+    width:20%;
+}
+.error{
+    color: red;
+}

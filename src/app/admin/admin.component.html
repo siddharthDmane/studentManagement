@@ -1,0 +1,30 @@
+<div class="main-div">
+    <div class="div-line div-padd">
+        <b>ADMINS DASHBOARD</b>
+    </div>
+    <div class="div-line">
+        <button class="btn btn-success"  (click)="fetchAdminsData()">Fetch All Admins </button>
+    </div>
+    <table cellspacing="0" border="1">
+        <thead class="thead">
+            <tr class="thead">
+                <th>Id</th>
+                <th>Students Name</th>
+                <th>User Name</th>
+                <th>Role</th>
+                <th>Email</th>
+                <th>Password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let obj of _datastore.students_data,index as i" class="tbody">
+                <th class="fs-4">{{i+1}}</th>
+                <th class="fs-4">{{obj.name}}</th>
+                <th class="fs-4">{{obj.user_name}}</th>
+                <th class="fs-4">{{obj.role}}</th>
+                <th class="fs-4">{{obj.email}}</th>
+                <th class="fs-4">{{obj.password}}</th>
+            </tr>
+        </tbody>
+    </table>    
+</div>
